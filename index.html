@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokémon Search App</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<div class="container">
+  <h1 id="title">Pokémon Search App</h1>
+  <div class="inline-elements">
+    <input type="text" placeholder="Pokémon Name or ID:" id="search-input" required>
+    <button id="search-button">Search</button>
+  </div>
+  <div class="pokemon-info">
+    <div class="info-container">
+      <div class="inline-elements name-id">
+        <h2 id="pokemon-name"></h2>
+        <h2>  </h2>
+        <h2 id="pokemon-id"></h2>
+      </div>
+      <br>
+      <div class="inline-elements weight-height">
+        <h2 id="weight"></h2>
+        <h2>  </h2>
+        <h2 id="height"></h2>
+      </div>
+      <img src="" alt="" id="sprite">
+      <br>
+      <div id="types" class="inline-elements">
+        
+      </div>
+    </div>
+    <table>
+      <tr>
+        <th class="stat"><strong>Base</strong></th>
+        <th class="stat"><strong>Stats</strong></th>
+      </tr>
+      <tr>
+        <td class="stat">HP:</td>
+        <td class="stat" id="hp">50</td>
+      </tr>
+      <tr>
+        <td class="stat">Attack:</td>
+        <td class="stat" id="attack">75</td>
+      </tr>
+      <tr>
+        <td class="stat">Defense:</td>
+        <td class="stat" id="defense">35</td>
+      </tr>
+      <tr>
+        <td class="stat">Sp. Attack:</td>
+        <td class="stat" id="special-attack">70</td>
+      </tr>
+      <tr>
+        <td class="stat">Sp. Defense:</td>
+        <td class="stat" id="special-defense">30</td>
+      </tr>
+      <tr>
+        <td class="stat">Speed:</td>
+        <td class="stat" id="speed">40</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
